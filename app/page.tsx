@@ -11,7 +11,7 @@ import { useMobileDetection } from "@/hooks/use-mobile-detection";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 import { ModeToggle } from "@/components/ui/theme-toggle";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, Loader2, Star } from "lucide-react";
+import { ArrowRight, Loader2 } from "lucide-react";
 import {
   staggerContainer,
   fadeUp,

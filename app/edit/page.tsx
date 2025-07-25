@@ -52,7 +52,7 @@ import { EditorMobileWarning } from "@/components/mobile-warning";
 
 import { useDebounce } from "@/hooks/use-debounce";
 import { useMobileDetection } from "@/hooks/use-mobile-detection";
-import { NotAScam } from "@/components/not-a-scam";
+
 import { useEditorStore } from "@/lib/store";
 import { DARK_MODE_COLOR, LIGHT_MODE_COLOR } from "@/lib/constants";
 
