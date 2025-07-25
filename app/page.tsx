@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
+
 import { Logo } from "@/components/ui/logo";
 import { FileUpload } from "@/components/file-upload";
 import { MobileWarning } from "@/components/mobile-warning";
@@ -17,10 +17,6 @@ import {
   fadeUp,
   logoAnimation,
 } from "@/lib/animation-values";
-import { Button } from "@/components/ui/button";
-import { AnimatedNumber } from "@/components/ui/animated-numbers";
-import { V0Icon, VercelIcon } from "@/components/ui/example-icons";
-import { NotAScam } from "@/components/not-a-scam";
 
 export default function Home() {
   const [svgData, setSvgData] = useState<string | null>(null);

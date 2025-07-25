@@ -10,7 +10,6 @@ import {
   VercelIcon,
   XIcon,
   ChatAppIcon,
-  Vecto3dIcon,
 } from "@/components/ui/example-icons";
 import { Button } from "@/components/ui/button";
 
@@ -20,7 +19,6 @@ const exampleIcons = [
   { name: "Vercel", component: VercelIcon },
   { name: "X", component: XIcon },
   { name: "Chat App", component: ChatAppIcon },
-  // { name: "MeshGenX", component: Vecto3dIcon },
 ];
 
 export function FileUpload({
