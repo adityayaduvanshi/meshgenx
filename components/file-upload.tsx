@@ -10,6 +10,7 @@ import {
   VercelIcon,
   XIcon,
   ChatAppIcon,
+  AppleIcon,
 } from "@/components/ui/example-icons";
 import { Button } from "@/components/ui/button";
 
@@ -19,6 +20,7 @@ const exampleIcons = [
   { name: "Vercel", component: VercelIcon },
   { name: "X", component: XIcon },
   { name: "Chat App", component: ChatAppIcon },
+  // { name: "Apple", component: AppleIcon },
 ];
 
 export function FileUpload({

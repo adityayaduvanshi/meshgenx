@@ -19,8 +19,33 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "MeshGenX | Transform Your Vectors in a New Dimension",
-  description: "A super simple tool to convert SVG logos to 3D models",
+  title:
+    "MeshGenX | Convert SVG to 3D Models | Free Online SVG to 3D Converter",
+  description:
+    "Transform your SVG logos and icons into stunning 3D models instantly. Free online SVG to 3D converter with professional materials, real-time preview, and GLB export. No 3D experience required - perfect for designers, developers, and creators.",
+  authors: [
+    { name: "Aditya Yaduvanshi", url: "https://adityayads.vercel.app" },
+  ],
+  creator: "Aditya Yaduvanshi",
+  publisher: "MeshGenX",
+  keywords: [
+    "SVG to 3D converter",
+    "SVG to 3D model",
+    "convert SVG to 3D",
+    "3D model generator",
+    "SVG 3D converter online",
+    "free SVG to 3D",
+    "logo to 3D model",
+    "icon to 3D model",
+    "GLB export",
+    "GLTF converter",
+    "3D web models",
+    "vector to 3D",
+    "online 3D converter",
+    "3D model maker",
+    "SVG extruder",
+    "3D logo generator",
+  ],
   icons: {
     icon: [
       { media: "(prefers-color-scheme: light)", url: "/logo_light.svg" },
@@ -61,7 +86,7 @@ export default function RootLayout({
       <Script
         src="https://cloud.umami.is/script.js"
         defer
-        data-website-id="237f1de7-ab04-44dd-a7b4-6b0b819b7991"
+        data-website-id="52212c28-1b6d-4bf4-b209-2438c258efcb"
       />
       <body className={cn(instrumentSans.className, instrumentSerif.variable)}>
         <ThemeProvider
