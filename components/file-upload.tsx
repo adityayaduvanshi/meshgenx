@@ -10,7 +10,6 @@ import {
   VercelIcon,
   XIcon,
   ChatAppIcon,
-  AppleIcon,
 } from "@/components/ui/example-icons";
 import { Button } from "@/components/ui/button";
 
